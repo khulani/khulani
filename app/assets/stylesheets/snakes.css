@@ -1,0 +1,68 @@
+.snakes {
+  text-shadow: 0px 2px 2px gray;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 0px 2px 2px gray;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 500px;
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  overflow: hidden;
+}
+
+.info {
+  margin: 0 auto;
+  width: 500px;
+  text-shadow: 0px 1px 1px gray;
+}
+
+.start {
+  position: absolute;
+  width: 500px;
+  top: 280px;
+  font-size: 48px;
+  text-shadow: 0px 2px 2px gray;
+}
+
+.score {
+  position: absolute;
+  font-size: 48px;
+  color: royalblue;
+  text-shadow: 0px 2px 2px black;
+}
+
+.t {
+  float: left;
+  /*background-color: lightgrey;*/
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  width: 24px;
+  height: 24px;
+}
+
+.s {
+  float: left;
+  background-color: red;
+  /*border: 1px solid black;*/
+  width: 24px;
+  height: 24px;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.a {
+  float: left;
+  background-color: green;
+  /*border: 1px solid black;*/
+  width: 24px;
+  height: 24px;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
