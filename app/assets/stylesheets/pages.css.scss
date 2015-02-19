@@ -1,3 +1,34 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.sidebar {
+  position: fixed;
+  width: 170px;
+  text-align: right; 
+}
+
+ul {
+	list-style-type: none;
+}
+
+.details {
+	margin-left: 300px;
+}
+
+.section {
+	width: 600px;
+}
+
+.project {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.note {
+	padding: 0 20px 0 20px;
+}
+
+img {
+	max-width: 100%;
+}
