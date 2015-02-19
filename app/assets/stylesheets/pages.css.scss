@@ -14,6 +14,7 @@ ul {
 
 .details {
 	margin-left: 300px;
+	padding-bottom: 100px;
 }
 
 .section {
@@ -27,6 +28,19 @@ ul {
 
 .note {
 	padding: 0 20px 0 20px;
+}
+
+.info-right {
+	float: right;
+	width: 400px;
+	margin: 10px;
+}
+
+.info-left {
+	float: left;
+	width: 150px;
+	text-align: right;
+	margin: 10px;
 }
 
 img {

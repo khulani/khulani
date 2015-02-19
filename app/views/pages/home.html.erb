@@ -1,6 +1,6 @@
 <div class="container">
   <div class='sidebar'>
-	  <h3 class="nav-name"><a href="#about">Khulani<br>Malone</a></h3>
+	  <h3 class="nav-name">Khulani<br>Malone</h3>
 		<ul class="nav-side">
 		  <li class="nav-link"><a href="#projects">projects</a></li>
 	    <li class="nav-link"><a href="#resume">resume</a></li>
@@ -14,6 +14,11 @@
 				<h3>
 					<a href="http://www.somehowdating.com">Somehow We're Dating</a> (My Final Project)
 				</h3>
+				<p class='note'>
+					'Somehow We're Dating' is a timeline journal web app for tracking 
+					reoccurring events and finding synchronicities with other timelines.
+				</p>
+				<img src="<%= asset_path('somehowdating_edit.png') %>"><br>
 				<p class='note'> 
 					<b><i>Note:</i></b><br>
 					You can <b>double click</b> to edit your timelines and occurrences. 
@@ -21,21 +26,42 @@
 					To move the timeline bar, you can <b>hover</b> near the top and bottom 
 					OR use the <b>mouse wheel</b>.
 				</p>
-				<img src="/assets/somehowdating_edit.png"><br>
 			</div>
 			<div class='project'>
 				<h3><a href="http://liketrello.herokuapp.com">Trello</a> (clone)</h3>
-				<img src="/assets/trello.png"> <br>
+				<p class='note'>
+					A web app that mimics the basic functionality of Trello. 
+				</p>
+				<img src="<%= asset_path('trello.png') %>"> <br>
+				<p class='note'>
+					You can create 'boards'. Within a 'board', you can create 'lists'. And 
+					within a 'list', you can create many 'cards'. Also, you can rearrange 
+					the order of your 'lists' via dragging. The same can be done with 'cards'. 
+					You can even drag 'cards' from one 'list' to another.
+				</p>
 			</div>
 			<div class='project'>
 				<h3><a href="/pages/snakes">Snakes</a> (Javascript/jQuery)</h3>
-				<img src="/assets/snakes.png"> <br>
+				<p class='note'>
+					A JavaScript version of the game 'snakes'. Enjoy :)
+				</p>
+				<img src="<%= asset_path('snakes.png') %>"> <br>
 			</div>
 		</div>
 		<div class='section' id='contact'>
 			<h1>Contact</h1>
-			<p>My Email: <a href="mailto:khulani@gmail.com">khulani@gmail.com</a></p>
-			<p>My GitHub: <a href="http://github.com/khulani">http://github.com/khulani</a></p>
+			<div>
+				<div class='info-left'>My Email: </div>
+				<div class='info-right'>
+					<a href="mailto:khulani@gmail.com">khulani@gmail.com</a>
+				</div>
+			</div>
+			<div>
+				<div class='info-left'>My GitHub: </div>
+				<div class='info-right'>
+					<a href="http://github.com/khulani">http://github.com/khulani</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
