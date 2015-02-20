@@ -1,6 +1,6 @@
 ## Khulani Malone
-Personal site:
+Personal site ([live](http://www.khulanimalone.com))
 - resume
 - project links
 - contact info
-- snakes (JS game)
+- snakes (JavaScript game - [live](http://www.khulanimalone.com/pages/snakes))
