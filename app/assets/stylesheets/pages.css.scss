@@ -8,8 +8,12 @@
   text-align: right; 
 }
 
-ul {
+.nav-side {
 	list-style-type: none;
+}
+
+ul {
+	margin: 0;
 }
 
 .details {
@@ -18,7 +22,12 @@ ul {
 }
 
 .section {
-	width: 600px;
+	width: 700px;
+}
+
+.image {
+	width: 100%;
+	text-align: center;
 }
 
 .project {
@@ -31,7 +40,7 @@ ul {
 }
 
 .info-right {
-	float: right;
+	float: left;
 	width: 400px;
 	margin: 10px;
 }
@@ -43,6 +52,78 @@ ul {
 	margin: 10px;
 }
 
+.resume-header {
+	float: left;
+}
+
+.resume-header.right {
+	margin-left: 100px;
+}
+
+.resume-section {
+	margin-bottom: 15px;
+}
+
+.resume-section:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.resume-side {
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+.resume-main {
+	float: left;
+	width: 600px;
+	margin-left: 10px;
+}
+
+.size-10 {
+	font-size: 10pt;
+}
+
+.size-11 {
+	font-size: 11pt;
+}
+
+.size-30 {
+	font-size: 30pt;
+}
+
+.color2 {
+	color: rgb(255, 153, 0);
+}
+
+.overlock {
+	font-family: "Overlock SC";
+	font-weight: bold;
+}
+
+.indie {
+	font-family: "Indie Flower";
+	font-weight: bold;
+}
+
+.averia {
+	font-family: "Averia Sans Libre";
+}
+
+.resume-content {
+	line-height: 1.0;
+	margin: 0;
+}
+
+.job-role {
+	margin-left: 20px;
+}
+
 img {
 	max-width: 100%;
 }
+
+
