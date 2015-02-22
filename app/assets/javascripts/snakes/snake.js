@@ -89,6 +89,7 @@
     this.apple = new Coord;
     this.grid = new Array(20);
     this.tail = this.snake.tail();
+    this.head = this.snake.head();
     this.grow = 0;
     this.gameOver = false;
     this.score = 0;
@@ -128,16 +129,21 @@
         this.gameOver = true;
         break;
     }
-    
-    this.grid[this.snake.head().row][this.snake.head().col] = 's'
+
     if (this.grow > 0) {
       this.snake.grow(this.tail);
+      this.grid[this.tail.row][this.tail.col] = 'e';
       this.grow--;
       this.score += 30;
     } else {
       this.grid[this.tail.row][this.tail.col] = 't';
       this.tail = this.snake.tail();
+      this.grid[this.tail.row][this.tail.col] = 'e';
     }
+
+    this.grid[this.head.row][this.head.col] = 's';
+    this.head = this.snake.head();
+    this.grid[this.head.row][this.head.col] = 'h';
   };
 
   Board.prototype.render = function () {    

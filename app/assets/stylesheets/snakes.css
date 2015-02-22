@@ -45,22 +45,50 @@ main {
   height: 24px;
 }
 
+.h {
+  float: left;
+  background-color: black;
+  /*border: 1px solid black;*/
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
+}
+
 .s {
   float: left;
   background-color: red;
   /*border: 1px solid black;*/
-  width: 24px;
-  height: 24px;
-  border-right: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
+}
+
+.e {
+  float: left;
+  background-color: orange;
+  /*border: 1px solid black;*/
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
 }
 
 .a {
   float: left;
   background-color: green;
   /*border: 1px solid black;*/
-  width: 24px;
-  height: 24px;
-  border-right: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
 }
